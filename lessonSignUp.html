@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Basic HTML</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="signup.css">
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href = "assign3.html">Home</a></li>
+                <li><a href = "events.html">Events</a></li>
+                <li><a href = "rankings.html">Rankings</a></li>
+                <li><a href = "lessons.html">Lessons</a></li>
+            </ul>
+            
+            
+            <p class="bann">
+                <img src="src/cue and title.png" alt="sample image located externally on a public page" height="125" width="100%">
+            </p>
+        </header>
+    
+        <img src="src/oneball.gif" alt="oneball" height = "55" width = "54" id = "one" class = "balls", usemap = "#mymap">
+        <img src="src/cueball.gif" alt="oneball" height = "51" width = "52" id = "cue" class = "balls">
+        <img src="src/twoball.gif" alt="oneball" height = "55" width = "54" id = "two" class = "balls">
+        <img src="src/threeball.gif" alt="oneball" height = "55" width = "54" id = "three" class = "balls">
+        <img src="src/fiveball.gif" alt="oneball" height = "55" width = "54" id = "five" class = "balls">
+        <img src="src/sixball.gif" alt="oneball" height = "55" width = "54" id = "six" class = "balls">
+        <img src="src/sevenball.gif" alt="oneball" height = "55" width = "54" id = "seven" class = "balls">
+        <img src="src/eightball.gif" alt="oneball" height = "55" width = "54" id = "eight" class = "balls">
+        <img src="src/nineball.gif" alt="oneball" height = "55" width = "54" id = "nine" class = "balls">
+            
+            <form name ="myform" id = "myform" method = "post" action="MAILTO:xaleth09@gmail.com">
+                <h3>Lesson Sign Up Form</h3>
+                <label for = "firstname" class="myLabels">Your first name:</label>
+                    <input type = "text" name="firstname" id="firstname" required><br>
+                <label for = "lastname" class="myLabels">Your last name: </label>
+                    <input type ="text" name="lastname" id="lastname" required><br>
+                <label for = "email" class="myLabels">Enter your email: </label>
+                    <input type ="email" name = "email" id="email" required><br><br>
+                                
+                <label for="exp" class="myLabels">Year(s) Playing Pool: </label>
+                    <input type="number" name="exp" id="exp" min="1" max="100"step="1" value="1"><br>
+                        
+                <label for = "cues" class="myLabels">Choose available days: </label><br>
+                <input type ="checkbox" value="monday" name = "monday" id="monday">
+                    <label for = "monday">Monday</label><br>
+                <input type ="checkbox" value="tuesday" name = "tuesday" id="tuesday">
+                    <label for = "monday">Tuesday</label><br>
+                <input type ="checkbox" value="wednesday" name = "wednesday" id="wednesday">
+                    <label for = "monday">Wednesday</label><br>
+                <input type ="checkbox" value="thursday" name = "thursday" id="thursday">
+                    <label for = "monday">Thursday</label><br>
+                <input type ="checkbox" value="friday" name = "friday" id="friday">
+                    <label for = "monday">Friday</label><br>
+                        
+                <label for = "cues" class="myLabels">Choose favorite game(s): </label><br>
+                    <input type ="checkbox" value="8ball" name = "8ball" id="8ball">
+                        <label for = "8ball">8-Ball</label><br>
+                    <input type ="checkbox" value="9ball" name = "9ball" id="9ball">
+                        <label for = "9ball">9-Ball</label><br>
+                    <input type ="checkbox" value="straight" name = "straight" id="straight">
+                        <label for = "straight">Straight Pool</label><br>
+                    <input type ="checkbox" value="OnePocket" name = "OnePocket" id="OnePocket">
+                        <label for = "OnePocket">One Pocket</label><br>
+                        
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+
+        
+    </body>
+    
+    <footer>
+        <p><a class = "foot" href="https://www.facebook.com/groups/bubilliards/?fref=nf">Boston University Billiards Club</a><br>
+        <a class = "foot" href="http://www.bu.edu/">Go Terriers!</a></p>
+    </footer>
+</html>
+
+

@@ -1,0 +1,62 @@
+.title{
+    top: 35%;
+    left: 32%;
+    
+}
+
+#EventFlier{
+    position:fixed;
+    top: 45%;
+    left: 6%;
+    
+}
+
+
+#cue{
+    left: 75%;
+}
+
+#two{
+    top: 83%;
+}
+
+#three{
+    top: 45%;
+    left: 75%;
+}
+
+#seven{
+    top: 80%;
+}
+
+#nine{
+    top: 86%;
+}
+
+table{
+    position: fixed;
+    top:43%;
+    left: 29%;
+}
+
+table, td{
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    background-color:#31B404;
+}
+th{
+    background-color: lightgray;
+    text-align: left;
+    padding: 8px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+
+#footer{
+    text-align: center;
+    background-color:lightgray;
+}

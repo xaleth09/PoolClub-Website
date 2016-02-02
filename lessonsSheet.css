@@ -1,0 +1,72 @@
+table{
+    position: fixed;
+    top:48%;
+    left: 29%;
+}
+
+table, td{
+    padding: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    background-color:#31B404;
+}
+th{
+    background-color: lightgray;
+    text-align: left;
+    padding: 8px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#footer{
+    background-color:lightgray;
+}
+
+.freeLessons{
+    position:fixed;
+    color:black;
+    top: 88%;
+    left: 29%;
+    
+}
+
+
+
+#one{
+    top: 34%;
+    left: 28%;
+}
+#cue{
+    top: 34%;
+    left: 21%;
+}
+#two{
+    top: 34%;
+    left: 35%;
+}
+#three{
+    top: 34%;
+    left: 42%;
+}
+#five{
+    top: 34%;
+    left: 49%;
+}
+#six{
+    top: 34%;
+    left: 56%;
+}
+#seven{
+    top: 34%;
+    left: 63%;
+}
+#eight{
+    top: 34%;
+    left: 70%;
+}
+#nine{
+    top: 34%;
+    left: 77%;
+}

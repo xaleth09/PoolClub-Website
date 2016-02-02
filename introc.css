@@ -1,0 +1,12 @@
+/* This CSS Document is attached to a HTML document named sample.html */
+
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12pt;
+margin: 2em;
+background-color: black;
+}
+
+video{
+    margin-left: 3%;
+}
