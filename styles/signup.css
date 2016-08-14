@@ -25,36 +25,6 @@ header{
     width: 100%;
 }
 
-.bann{
-    margin: 0;
-    padding-top:0px;
-}
-
-.title{
-    position:fixed;
-    color: white;
-    font-size: 175%;
-    top: 40%;
-    left: 30%;
-}
-
-.aboutus{
-    position: fixed;
-    font-size: 120%;
-    top: 42%;
-    left: 40%;
-    
-}
-
-map{
-    position:fixed;
-}
-
-area{
-    width:10%;
-    height:10%;
-}
-
 ul{
     position:relative;
     margin: 0;
@@ -83,10 +53,6 @@ li {
     position: fixed;
 }
 
-.balls:hover{
-    
-}
-
 footer{
     display: block;
     color: black;
@@ -108,7 +74,7 @@ a:hover{
     color:white;
 }
 
-.foot: link{
+.foot:link{
     color: black;
 }
 
@@ -116,11 +82,13 @@ a:hover{
     color:white;
 }
 
-#slide{
+#myform{
     position: fixed;
-    top: 40%;
-    left: 8%;
+    top: 35%;
+    left: 35%;
+    
 }
+
 
 #one{
     top:30%;
